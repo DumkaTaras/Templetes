@@ -1,0 +1,53 @@
+@import './s';
+header{
+    background-image: url(/image/Rectangle.jpg);
+    width: full;
+    height: 900px;
+    .menu{
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        padding-top: 20px;
+        margin-left: 400px;
+      &-el a{
+        color: $li-color;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+    hr{
+      color: $p-color;
+    }
+    .header-element{
+      margin-top: 220px;
+     .p-head{
+      display: flex;
+      justify-content: center;
+        color: $p-color;
+        margin-bottom: 20px;
+        // margin-left: -100px;
+      }
+      .h1-head{
+        color: $li-color;
+        font-size: 38px;
+        font-weight: 800;
+        font-family: "Montserrat", sans-serif;
+        width: 830px;
+        display: flex;
+        margin-left: -150px;
+      }
+      .button{
+        width: 200px;
+        height: 45px;
+        background-color: $btn-color;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 250px;
+      }
+      .button a{
+        color: $li-color;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+}
