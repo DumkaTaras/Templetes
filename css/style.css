@@ -1720,7 +1720,7 @@ a {
 }
 
 .sec5 {
-  background-image: url(/image/Rectangle.jpg);
+  background-image: url(image/Rectangle.jpg);
   width: full;
   height: 570px;
 }
@@ -1741,7 +1741,7 @@ a {
   text-align: center;
 }
 .sec5 .image-video-sec5 {
-  background-image: url(/image/Rectangle_2__2_-removebg-preview.png);
+  background-image: url(image/Rectangle_2__2_-removebg-preview.png);
   background-repeat: no-repeat;
   width: 750px;
   height: 350px;
